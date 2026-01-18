@@ -1,16 +1,57 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🛒 FUTURE FS – E-Commerce Application
 
-Currently, two official plugins are available:
+A full-stack e-commerce web application built using **React**, **Tailwind CSS**, and **MongoDB**.  
+This project demonstrates modern frontend design, backend integration, and database management for an online shopping platform.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Frontend
+- **React.js** – Component-based UI development
+- **Tailwind CSS** – Utility-first CSS framework for responsive design
+- **Axios / Fetch API** – API communication
+- **React Router** – Client-side routing
 
-## Expanding the ESLint configuration
+### Backend
+- **Node.js**
+- **Express.js**
+- **MongoDB** – NoSQL database
+- **Mongoose** – ODM for MongoDB
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+- User authentication (Register / Login)
+- Product listing with details
+- Add to cart & remove from cart
+- Checkout flow (simulation)
+- Responsive UI for all devices
+- Secure backend APIs
+- MongoDB database integration
+
+---
+
+## ⚙️ Installation & Setup
+
+###  Clone the Repository
+```bash
+git clone https://github.com/priyankabudwant/FUTURE_FS_02_Ecommerce.git
+cd FUTURE_FS_02_Ecommerce
+
+### Frontend Setup
+cd client
+npm install
+npm start
+
+###  Clone the Repository
+cd server
+npm install
+node Server.js
+
+
+
+
